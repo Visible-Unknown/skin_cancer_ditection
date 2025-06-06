@@ -1,6 +1,6 @@
 # Skin Cancer Detection Web Application
 
-![Project Logo](static/images/logo.png) <!-- Add your logo if available -->
+![Project Logo](static/screenshots/logo.png) <!-- Add your logo if available -->
 
 A Flask-based web application that uses deep learning to detect skin cancer from uploaded images, with user authentication and PDF report generation.
 
