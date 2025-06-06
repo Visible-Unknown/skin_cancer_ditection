@@ -188,6 +188,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 💻 **GitHub**: [github.com/Visible-Unknown](https://github.com/Visible-Unknown)  
 
 🔗 **Project Repository**:  
-[https://github.com/Visible-Unknown/skin-cancer-detection](https://github.com/Visible-Unknown/skin-cancer-detection)
+[https://github.com/Visible-Unknown/skin-cancer-detection](https://github.com/Visible-Unknown/skin_cancer_ditection/blob/main/README.md)
 </div>
 
