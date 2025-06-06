@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                User Profile
+            </div>
+            <div class="card-body">
+                <p><strong>Name:</strong> {{ user.full_name }}</p>
+                <p><strong>Age:</strong> {{ user.age }}</p>
+                <p><strong>Gender:</strong> {{ user.gender }}</p>
+                <a href="{{ url_for('logout') }}" class="btn btn-danger">Logout</a>
+            </div>
+        </div>
+        
+        <div class="card mt-4">
+            <div class="card-header">
+                New Analysis
+            </div>
+            <div class="card-body">
+                <form method="POST" action="{{ url_for('predict') }}" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label class="form-label">Upload Skin Image</label>
+                        <input type="file" class="form-control" name="file" accept="image/*" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Analyze</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-8">
+        <h3>Analysis History</h3>
+        {% if history %}
+            {% for item in history %}
+            <div class="card prediction-card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="{{ item.image_path }}" class="img-thumbnail">
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Result: {{ item.prediction_result }}</h5>
+                            <p>Confidence: {{ (item.confidence * 100)|round(2) }}%</p>
+                            <p>Date: {{ item.created_at.strftime('%Y-%m-%d %H:%M') }}</p>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="{{ url_for('result', prediction_id=item.id) }}" class="btn btn-info">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <p>No analysis history found.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
