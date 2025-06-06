@@ -1,8 +1,10 @@
-# Skin Cancer Detection Web Application
+# Skin Cancer Detection System
+<div align="center">
+  <img src="static/screenshots/logo.png" width="200" alt="Skin Cancer Detection Logo">
+  <h3>Early Detection for Better Outcomes</h3>
+</div>
 
-![Project Logo](static/screenshots/logo.png) <!-- Add your logo if available -->
-
-A Flask-based web application that uses deep learning to detect skin cancer from uploaded images, with user authentication and PDF report generation.
+An AI-powered web application that uses deep learning to detect skin cancer from uploaded images, with user authentication and PDF report generation.
 
 ## Features
 
@@ -16,7 +18,7 @@ A Flask-based web application that uses deep learning to detect skin cancer from
 ## 📸 Application Interface
 
 ### 1. Home Page
-![Home Page](static/screenshots/home.png)  
+![Home Page](static/screenshots/home.jpeg)  
 *Landing page with login/register options*
 
 ### 2. User Registration
@@ -173,20 +175,19 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Flask documentation
 - TensorFlow/Keras documentation
 
-### Contact
-For questions or support, please contact:
-[AL AMIN HOSSAIN] - [alamin57@student.sust.edu]
+## Contact
 
-Project Link: https://github.com/Visible-Unknown/skin-cancer-detection
+<div align="center">
 
+### AL AMIN HOSSAIN  
+🎓 **Computer Science and Engineering**  
+🏛 **Shahjalal University of Science and Technology (SUST)**  
 
-### Key Features of This README:
+📧 **Email**: [alamin57@student.sust.edu](mailto:alamin57@student.sust.edu)  
+🌐 **Portfolio**: [visible-unknown.github.io](https://visible-unknown.github.io/)  
+💻 **GitHub**: [github.com/Visible-Unknown](https://github.com/Visible-Unknown)  
 
-1. **Clear Project Overview**: Immediately explains what the project does
-2. **Visual Structure**: Uses emojis and clear section headers
-3. **Complete Installation Guide**: Step-by-step setup instructions
-4. **Database Schema**: Includes the exact SQL needed
-5. **Configuration Details**: Explains environment variables
-6. **Usage Instructions**: Simple steps for end users
-7. **Project Structure**: Visual representation of files
-8. **License and Contact**: Important legal and support information
+🔗 **Project Repository**:  
+[https://github.com/Visible-Unknown/skin-cancer-detection](https://github.com/Visible-Unknown/skin-cancer-detection)
+</div>
+
