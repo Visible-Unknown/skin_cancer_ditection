@@ -21,10 +21,11 @@ A Flask-based web application that uses deep learning to detect skin cancer from
 
 ### 2. User Registration
 ![Registration Page](static/screenshots/register.jpeg)  
-*Registration form with date of birth field*
+*Registration form with patient details e.g. username, email, password, name, age*
+
 ### 3. Login
 ![Login Page](static/screenshots/login.jpeg)  
-*Login page form with date of birth field*
+*Login page form with username and password*
 
 ### 4. Dashboard
 ![Dashboard](static/screenshots/dashboard.jpeg)  
