@@ -12,7 +12,6 @@ An AI-powered web application that uses deep learning to detect skin cancer from
 - 🔐 User authentication (Registration/Login)
 - 📊 Prediction history dashboard
 - 📄 PDF report generation with patient details
-- 📅 Age calculation from date of birth
 - 🏥 Medical notes system
 
 ## 📸 Application Interface
