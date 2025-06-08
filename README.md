@@ -1,4 +1,5 @@
-# Skin Cancer Detection System
+<div align = "center"> <h1> Skin Cancer Detection System </h1> </div>
+
 <div align="center">
   <img src="static/screenshots/logo.png" width="200" alt="Skin Cancer Detection Logo">
   <h3>Early Detection for Better Outcomes</h3>
