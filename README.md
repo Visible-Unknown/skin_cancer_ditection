@@ -1,3 +1,26 @@
+<div align="center">
+<h1>Shahjalal University of Science and Technology, Sylhet </h1><br>
+Department of <br>
+<h2>Computer Science & Engineering</h2>
+
+ 
+![image](https://github.com/al-amin057/micro_project/assets/104164316/b8b92d25-1952-4323-9200-d9c535655aa4)
+
+
+</div>
+<div>
+Course Name: <b> Artificial Intelligence Lab </b> <br>
+Course Code: <b>CSE-338</b> <br>
+Group: <b>16</b><br>
+Project Title: <b>Skin Cancer Detection System</b>
+
+## Team Members
+1. Al Amin Hossain (**2020331057**)
+2. Pradip Pashi (**2020331105**)
+3. Md. Sakib Hassan (**2020331109**)
+</div>
+
+
 <div align = "center"> <h1> Skin Cancer Detection System </h1> </div>
 
 <div align="center">
@@ -5,7 +28,10 @@
   <h3>Early Detection for Better Outcomes</h3>
 </div>
 
-An AI-powered web application that uses deep learning to detect skin cancer from uploaded images, with user authentication and PDF report generation.
+<div align="justify">
+Skin Cancer Detection System is a full-stack AI-powered web application developed for the <b>Artificial Intelligence Lab (CSE 338)</b> under the guidance of <a href="https://www.sust.edu/departments/cse/faculty/noman-cse@sust.edu">Abdullah Al Noman</a>, Lecturer, CSE, SUST. It enables authenticated users to detect skin cancer from uploaded images using deep learning, stores patient data and prediction history in a MySQL database, and generates downloadable PDF reports with detailed results—offering an accessible and automated solution for early diagnosis.
+</div>
+
 
 ## Features
 
